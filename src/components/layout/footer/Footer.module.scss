@@ -1,0 +1,30 @@
+.footer {
+  background: #ffffffbc;
+  padding-block: 40px;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .box {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      ul {
+        width: 100%;
+        max-width: 180px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        li:first-child {
+          font-weight: 500;
+          color: #000;
+        }
+        li {
+          font-size: 12.5px;
+          color: #686868;
+        }
+      }
+    }
+  }
+}

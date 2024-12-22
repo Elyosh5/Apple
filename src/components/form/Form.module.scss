@@ -1,0 +1,17 @@
+.form {
+  padding-block: 50px;
+  .content {
+    display: flex;
+    justify-content: center;
+    .form_control {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .btn {
+        background: #000;
+      }
+    }
+  }
+}

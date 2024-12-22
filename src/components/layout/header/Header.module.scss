@@ -1,0 +1,25 @@
+.header {
+  backdrop-filter: blur(4px);
+  padding-block: 10px;
+  background: #fcfcfd61;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      font-size: 20px;
+    }
+    p {
+      font-size: 13px;
+    }
+    .search_icon {
+      font-size: 20px;
+    }
+    .bag {
+      font-size: 20px;
+    }
+  }
+}
